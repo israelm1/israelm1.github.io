@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Israel melayev</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="current_cl">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="map_div_cl">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.7672838901085!2d34.805961484458265!3d31.912919781241495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502b6e5a3349af1%3A0xd79838527abfd974!2z16fXntek15XXoSDXlNeZ15fXmdeT15Qg15zXnNeZ157XldeT15kg15fXldelIC0g16nXnNeV15fXqiDXlNee15jXlA!5e0!3m2!1siw!2sil!4v1629324987901!5m2!1siw!2sil" width="1800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="main_about_cl main_contact_cl">
+        <h2>Drop your message here</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt nostrum iste nam quibusdam quas adipisci beatae consequuntur! Temporibus pariatur quibusdam quia numquam. Cupiditate odit voluptatum, architecto excepturi accusantium maxime.</span>
+        </div>
+
+        <div class="contact_form_div_cl">
+            <form>
+                <div class="contact_name_email_cl">
+                <label for="name">Name *</label>
+                <label for="email">Email *</label>
+
+                <input type="text" id="name" class="input_field_contact_cl" required>
+                <input type="email" id="email" class="input_field_contact_cl" required>
+                </div>
+
+                <div class="contact_subject_message_cl">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" class="input_field_contact_cl" required>
+    
+                    <label for="message">Message *</label>
+                     <textarea name="" id="message" cols="20" rows="4" id="message" class="textarea_contact" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn_contact">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+
+    <footer>
+        <div class="footer_about_cl">
+            <p>About me</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam commodi facere, ducimus dolore corporis quam ea itaque officiis excepturi expedita amet sunt esse, delectus corrupti rem enim praesentium sequi.</span>
+        </div>
+        <div class="footer_projects_cl">
+            <p>My projects</p>
+            <div class="projects_col">
+                <img src="../images/project_image (1).jpeg" alt="">
+                <img src="../images/project_image (2).jpeg" alt="">
+                <img src="../images/project_image (3).jpeg" alt="">
+                <img src="../images/project_image (4).jpeg" alt="">
+                <img src="../images/project_image (5).jpeg" alt="">
+                <img src="../images/project_image.jpeg" alt="">
+            </div>
+        </div>
+        <div class="footer_newsletter_cl">
+            <p>Newsletter registration</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quas magni provident omnis ipsam enim accusantium quisquam eos nemo assumenda sapiente deserunt, odio ducimus vel laborum hic, dignissimos rerum eligendi.</span>
+            <form>
+                <input type="text" placeholder="Enter email" class="footer_input_field_cl">
+                <button type="submit" class="footer_form_btn">Submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
